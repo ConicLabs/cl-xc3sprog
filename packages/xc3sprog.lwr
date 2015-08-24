@@ -20,6 +20,7 @@
 category: common
 #depends: gnuradio uhd 
 source: git://https://github.com/ConicLabs/cl-xc3sprog.git
+satisfy_deb: libusb-dev && libftdi-dev
 #source: put a public get repo here
 gitbranch: master
 inherit: cmake
